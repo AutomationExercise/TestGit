@@ -36,5 +36,13 @@
 	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/JarFiles/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/JarFiles/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/JarFiles/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/jxlFiles/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/Apache POI/poi-4.0.1/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/Apache POI/poi-4.0.1/poi-examples-4.0.1.jar"/>
+	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/Apache POI/poi-4.0.1/poi-excelant-4.0.1.jar"/>
+	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/Apache POI/poi-4.0.1/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/Apache POI/poi-4.0.1/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="M:/Lilla/Installation_Stuff/SeleniumFiles/Apache POI/poi-4.0.1/poi-scratchpad-4.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
