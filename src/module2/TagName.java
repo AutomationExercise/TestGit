@@ -1,22 +1,25 @@
 package module2;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 public class TagName {
 
 	public static void main(String[] args) 
 	{
-			//Open Browser
-		System.setProperty("webdriver.chrome.driver", "M:\\Lilla\\Installation_Stuff\\SeleniumFiles\\ExeFiles\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+			//Open Browser 
+		
+		System.setProperty("webdriver.gecko.driver","C:\\TestEclipse\\Edureka_15thDec\\Driver\\geckodriver.ext");
+		WebDriver driver = new FirefoxDriver();
 				
 			// Open AUT
 		driver.get("https://www.facebook.com/");
+		driver.manage().deleteAllCookies();
+		String title= driver.getTitle();
+		System.out.println(title);
+		System.out.print(title); 
 				
 		/*// Finding the total number of elements starting with a specific tag <> locator:
 		 * 
@@ -34,14 +37,14 @@ public class TagName {
 		
 		
 		//Create a list of type WebElement to store all the Link elements in to it.
-		List<WebElement> links = driver.findElements(By.tagName("a"));
+		/*List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println(links.size());
 		for(int i = 0; i <= links.size(); i=i+1)
 		{
 			System.out.println("Links name : " +links.get(i).getText());
 		}
 		
-		driver.close();
+		driver.close();*/
 	}
 
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DataDrivenTest]">
+  <test thread-count="5" name="DDT_FormFill(failed)">
+    <classes>
+      <class name="module9.DDT1">
+        <methods>
+          <include name="FillForm"/>
+          <include name="CloseBrowser"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- module9.DDT1 -->
+    </classes>
+  </test> <!-- DDT_FormFill(failed) -->
+</suite> <!-- Failed suite [DataDrivenTest] -->

@@ -21,6 +21,7 @@ public class List_WebElements {
 		// 3. Write a Java code using Selenium WebDriver to make sure that all the element attributes are found on the webpage
 				
 				 List <WebElement> element = driver.findElements(By.tagName("a"));
+		
 				int TotalElements = element.size();
 				
 				System.out.println(TotalElements);

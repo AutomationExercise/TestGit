@@ -26,7 +26,7 @@ public class Example1 {
 		driver.get("http://newtours.demoaut.com/");
 	
 		}
-	
+	// TC1: test to script happy path scenario of the log-in functionality avoiding any exception.
 	@Test (dependsOnMethods = "OpenAUT") // Heart of the Test
 	public void Login() throws InterruptedException {
 		// log in into an AUT
@@ -37,6 +37,7 @@ public class Example1 {
 		Thread.sleep(3000);
 	
 		}
+	//TC2: test to script happy path scenario of the log-out functionality avoiding any exception
 	@Test (dependsOnMethods = "Login") // we can also write as @AfterSuite -- no matter
 	public void Logout() throws InterruptedException {
 		driver.findElement(By.linkText("SIGN-OFF")).click();
@@ -44,3 +45,4 @@ public class Example1 {
 		}
 	
 	}
+

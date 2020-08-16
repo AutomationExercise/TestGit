@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParameterPractice">
+	<test name="Parameter-Browser">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="module6.Example3"></class>
+		</classes>
+	</test>
+</suite>
