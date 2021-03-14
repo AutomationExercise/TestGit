@@ -1,12 +1,12 @@
 package module2;
-
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 public class List_WebElements {
 
 	public static void main(String[] args) {
@@ -25,9 +25,9 @@ public class List_WebElements {
 				int TotalElements = element.size();
 				
 				System.out.println(TotalElements);
+				
 				for(int i = 0; i <= TotalElements; i++ )
 				{
-				
 					System.out.println("Text is : " + element.get(i).getText());
 					
 					
